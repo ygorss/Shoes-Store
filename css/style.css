@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&family=Ropa+Sans&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-}
+  }
 
 .cabecalho{
     display: flex;
@@ -27,4 +27,52 @@
     color: #777777;
 }
 
+  section p {
+      width: 100%;
+      height: 82px;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      text-align: center;
+      font-size: 60px;
+      font-style: bold;
+      color: black;
+      
+  }
+section article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 113px;
+}
+section.container-desconto {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 662px;
+    background-color: #C2185B;
+    justify-content: center;
+     
+    }
+    
+    section.container-desconto p {
+        width: 188px;
+        height: 60px;
+        position: absolute;
+        justify-content: center;
+        margin-top: 61px;
+        margin-bottom: 30px;
+        color: #fff;
+        font-weight: bold;
+            
+    }
 
+    section.container-desconto article {
+        background-color: #fff;
+        width: 260px;
+        height: 388px;
+        margin-top: 200px;
+        text-align: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
