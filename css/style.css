@@ -26,6 +26,12 @@
     text-transform: uppercase;
     color: #777777;
 }
+.banner{
+    height: 235px;
+}
+.banner .banner-image{
+    width: 100%;
+}
 
   section p {
       width: 100%;
