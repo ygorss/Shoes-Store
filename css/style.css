@@ -19,6 +19,10 @@
     justify-content: space-between;
     margin-right: 15px;
 }
+.cabecalho nav a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 
 .cabecalho a{
     margin: 44px 15px 44px 0;
@@ -87,6 +91,24 @@ section.container-desconto {
         margin-top: -50px;
     }
 
+    .card-title:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .card-title-2:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .card-title-3:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .card-title-4:hover{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+
+    
     article h6 {
         width: 90px;
         height: 23px;
