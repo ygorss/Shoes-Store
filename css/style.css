@@ -298,15 +298,30 @@ section.container-desconto {
         font-size: 24px;
         height: 230px;
     }
+    .secaoForm-curriculo{
+        display: flex;
+    }
 
-    .secaoForm-curriculo .upload{
+    .secaoForm-curriculo input[type="file"]{
+        display: none;
+    }
+
+    .secaoForm-curriculo label{
+        padding: 5px 10px;
+        text-align: center;
         width: 141px;
         height: 31px;
-        font-size: 18px;
-        margin-left: 32px;
+        font-size: 22px;
+        margin-left: 20px;
         background-color: #C4C4C4;
         color: #fff;
         border: none;
+        cursor: pointer;
+    }
+
+    .secaoForm-curriculo h3{
+        font-size: 24px;
+        color: #9B9B9B;
     }
 
     .enviar-btn{
@@ -318,10 +333,6 @@ section.container-desconto {
         margin-top: 20px;
     }
 
-    .secaoForm-curriculo h3{
-        font-size: 24px;
-        color: #9B9B9B;
-    }
 
     .textoDireita{
         width: 30%;
