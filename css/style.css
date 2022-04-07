@@ -120,6 +120,63 @@ section.container-desconto {
         margin-top: 13px;
     }
 
+
+    /* page aleatoria da home ai */
+    /*sangrei pra fazer isso, perdi meu resto de sanidade*/
+
+
+
+    .containerPai {
+        display:flex;
+        flex-wrap: wrap;
+        max-width:100%;
+        justify-content: center;
+    }
+
+
+    .nomeRandom {
+        font-size: 40px;
+        font-weight: bold;
+        width: 585px;
+        height: 144px;
+        text-align: left;
+        margin-left: 70px;
+    }
+
+   .coluna1 {      
+       flex-direction: column;
+
+
+   }
+   .coluna2{   
+       flex-direction: row-reverse;  
+   }
+
+   .fotos1 {
+        width: 513px;
+        height: 663px;
+        margin: 20px
+   }
+
+   .botao {
+       margin-right: 110px;
+   }
+
+    .button {
+        background-color: #C2185B;
+        border: none;
+        color: white;
+        font-size: 38px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 403px;
+        height: 99px;
+    }
+
+    /*footer*/
+
     .footerPai {
         display: flex ;
         background-color: #C2185B;
@@ -148,12 +205,6 @@ section.container-desconto {
         font-size: 16px;
 
     }
-
-    
-    
-   
-
-
 
     .globo2{
         display:flex;
