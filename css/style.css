@@ -119,3 +119,66 @@ section.container-desconto {
     article h5 {
         margin-top: 13px;
     }
+
+    .footerPai {
+        display: flex ;
+        background-color: #C2185B;
+        justify-content:space-evenly;
+        align-items:center;
+        padding: 20px;
+    }
+
+    footer{
+        height: 248px;
+    }
+
+
+    .globo {
+        padding-top:2px;
+    }
+
+    .logo{
+        width:160px
+    }
+
+    .texto {
+        font-family: "Open Sans";
+        color: white;
+        width: 180px;
+        font-size: 16px;
+
+    }
+
+    
+    
+   
+
+
+
+    .globo2{
+        display:flex;
+    }
+
+    .cat{
+        font-size: 22px;
+        padding-right: 50px;
+        color: white;
+        line-height: 24px;
+    }
+    
+
+    .inst{
+        font-size: 20px;
+        padding-right: 50px;
+        color: white;
+        line-height: 20px;
+    }
+
+    
+    .listaCat li {
+        list-style-type: none;
+    }
+    
+    .listaInst li {
+        list-style-type: none;
+    }
