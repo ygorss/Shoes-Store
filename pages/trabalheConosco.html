@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shoes Store</title>
-    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="stylesheet" href="../css/style.css" />
 </head>
+
 <body>
     <header class="cabecalho">
         <img src="../images/logo-color.png" alt="Logo">
@@ -14,10 +16,85 @@
             <a href="#">Todos os Produtos</a>
             <a href="#">Coleções</a>
             <a href="#">Outlet</a>
+            <a href="trabalheConosco.html">trabalhe Conosco</a>
         </nav>
     </header>
     <main>
- 
+        <section class="formulario">
+            <h1>Faça parte do nosso time</h1>
+            <form action="/trabalheConosco" method="post">
+
+                <div class="secaoForm">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name">
+                </div>
+
+
+                <div class="secaoForm">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <div class="secaoForm">
+                    <label for="tel">Telefone</label>
+                    <input type="tel" name="tel" id="tel">
+
+                </div>
+                <div class="secaoForm">
+                    <label for="departamentos">Departamentos</label>
+                    <select name="departamentos" id="departamentos" >
+                        <option value="RH">RH</option>
+                        <option value="TI">TI</option>
+                        <option value="auxiliar">Auxiliares</option>
+                    </select>
+
+                </div>
+                <div class="secaoForm">
+                    <h3>Disponibilidade</h3>
+                    <div class="mark-box">
+                        
+                        <label for="integral-8">Integral (8h)</label>
+                        <input type="checkbox" name="tempo" id="integral-8">
+
+
+                        <label for="meioPeriodo-4">Meio Periodo (4h)</label>
+                        <input type="checkbox" name="tempo" id="meioPeriodo-4">
+
+                        <label for="freelancer">Freelancer</label>
+                        <input type="checkbox" name="tempo" id="freelancer">
+                    </div>
+
+                </div>
+                <div class="secaoForm">
+                    <h3>Qual a melhor forma para entrarmos em contato com você?</h3>
+                    <div class="mark-box">
+                       
+                        <label for="emailContato">E-mail</label>
+                        <input type="radio" name="contato" id="emailContato">
+                        <label for="telContato">Ligação</label>
+                        <input type="radio" name="contato" id="telContato">
+                        <label for="whatsapp">Whatsapp</label>
+                        <input type="radio" name="contato" id="whatsapp">
+                    </div>
+
+                </div>
+                <div class="secaoForm">
+                    <h3>Mensagem</h3>
+                    <input type="text" name="mensagem" id="mensagem">
+
+                </div>
+                <div class="secaoForm-curriculo">
+                    <h3>Curriculo</h3>
+                    <input type="file" name="curriculo" id="curriculo">
+                    <button class="upload">upload</button>
+                </div>
+                <button class="enviar-btn" type="submit">enviar</button>
+            </form>
+        </section>
+        <section class="textoDireita">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+
     </main>
 </body>
 
@@ -29,38 +106,39 @@
         <div class="texto">
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                ut labore et dolore magna aliqua. 
+                ut labore et dolore magna aliqua.
             </p>
         </div>
     </aside>
-   <aside class="globo2">
-   <nav class="cat" > 
-       <div class="listaCat">  
-           <ol>
-               <strong>Categorias</strong>
-               <li><a href="/">Sandálias</a></li>
-               <li><a href="/">tênis</a></li>
-               <li><a href="/">oxford</a></li>
-               <li><a href="/">coturnos</a></li>
-           </ol>  
-        </div>
-   </nav>
+    <aside class="globo2">
+        <nav class="cat">
+            <div class="listaCat">
+                <ol>
+                    <strong>Categorias</strong>
+                    <li><a href="/">Sandálias</a></li>
+                    <li><a href="/">tênis</a></li>
+                    <li><a href="/">oxford</a></li>
+                    <li><a href="/">coturnos</a></li>
+                </ol>
+            </div>
+        </nav>
 
-   <nav class="inst">
-       <div class="listaInst">          
-           <ol>
-               <strong>Institucional</strong>
-               <li><a href="/">sobre nós</a></li>
-               <li><a href="/">perguntas frequentes</a></li>
-               <li><a href="/">politica de privacidade</a></li>
-               <li><a href="/">rastreamento de pedidos</a></li>
-               <li><a href="/">trabalhe conosco</a></li>
-               <li><a href="/">contato</a></li>
-           </ol>
-       </div>
-   </nav>
-</aside>
+        <nav class="inst">
+            <div class="listaInst">
+                <ol>
+                    <strong>Institucional</strong>
+                    <li><a href="/">sobre nós</a></li>
+                    <li><a href="/">perguntas frequentes</a></li>
+                    <li><a href="/">politica de privacidade</a></li>
+                    <li><a href="/">rastreamento de pedidos</a></li>
+                    <li><a href="/">trabalhe conosco</a></li>
+                    <li><a href="/">contato</a></li>
+                </ol>
+            </div>
+        </nav>
+    </aside>
 
 
 </footer>
+
 </html>
