@@ -182,3 +182,14 @@ section.container-desconto {
     .listaInst li {
         list-style-type: none;
     }
+
+    .listaCat a{
+        color: white;
+        text-decoration: none;
+    }
+
+    .listaInst a{
+        color: white;
+        text-decoration: none;
+    }
+    
