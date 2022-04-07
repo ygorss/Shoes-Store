@@ -30,7 +30,7 @@
     color: #777777;
 }
 .banner{
-    height: 235px;
+    height: auto;
 }
 .banner .banner-image{
     width: 100%;
