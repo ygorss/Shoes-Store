@@ -277,7 +277,7 @@ section.container-desconto {
 
 
     .secaoForm input{
-        height: 32px;
+        height: 36px;
         font-size: 24px;
     }
     .secaoForm select{
@@ -325,6 +325,7 @@ section.container-desconto {
     }
 
     .enviar-btn{
+        border: none;
         height: 44px;
         background-color: #C2185B;
         color: #fff;
@@ -355,11 +356,40 @@ section.container-desconto {
         margin-bottom: 10px;
     }
 
-    .mark-box input{
+    .mark-box input[type='checkbox']{
+        all: unset;
         width: 20px;
-        margin: 0 30px 0 5px;
+        height: 20px;
+        margin: 0 5px 0 0px;
+        background-color: #9B9B9B;
+    }
+
+    .mark-box input[type='checkbox']:checked{
+        all: unset;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px 0 0px;
+        background-color: #7bf67b;
+    }
+
+    .mark-box input[type='radio']{
+        all: unset;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px 0 0px;
+        background-color: #9B9B9B;
+        border-radius: 50%;
+    }
+    .mark-box input[type='radio']:checked{
+        all: unset;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px 0 0px;
+        background-color: #7bf67b;
+        border-radius: 50%;
     }
 
     .mark-box label{
+        margin: 0 50px 0 0;
         color: #777777;
     }
