@@ -249,7 +249,7 @@ section.container-desconto {
 
 
     /* PAGINA TRABALHE CONOSCO */
-    main{
+    .main{
         display: flex;
         justify-content: space-between;
     }

@@ -20,81 +20,83 @@
         </nav>
     </header>
     <main>
-        <section class="formulario">
-            <h1>Faça parte do nosso time</h1>
-            <form action="/trabalheConosco" method="post">
-
-                <div class="secaoForm">
-                    <label for="name">Nome</label>
-                    <input type="text" name="name" id="name">
-                </div>
-
-
-                <div class="secaoForm">
-                    <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email">
-                </div>
-
-                <div class="secaoForm">
-                    <label for="tel">Telefone</label>
-                    <input type="tel" name="tel" id="tel">
-
-                </div>
-                <div class="secaoForm">
-                    <label for="departamentos">Departamentos</label>
-                    <select name="departamentos" id="departamentos" >
-                        <option value="RH">RH</option>
-                        <option value="TI">TI</option>
-                        <option value="auxiliar">Jovem Aprendiz</option>
-                    </select>
-
-                </div>
-                <div class="secaoForm">
-                    <h3>Disponibilidade</h3>
-                    <div class="mark-box">
-                        <input type="checkbox" name="tempo" id="integral-8">
-                        <label for="integral-8">Integral (8h)</label>
-                        
-
-                        <input type="checkbox" name="tempo" id="meioPeriodo-4">
-                        <label for="meioPeriodo-4">Meio Periodo (4h)</label>
-                        
-                        <input type="checkbox" name="tempo" id="freelancer">
-                        <label for="freelancer">Freelancer</label>
-                        
+        <div class="main">
+            <section class="formulario">
+                <h1>Faça parte do nosso time</h1>
+                <form action="/trabalheConosco" method="post">
+    
+                    <div class="secaoForm">
+                        <label for="name">Nome</label>
+                        <input type="text" name="name" id="name">
                     </div>
-
-                </div>
-                <div class="secaoForm">
-                    <h3>Qual a melhor forma para entrarmos em contato com você?</h3>
-                    <div class="mark-box">
-                        <input type="radio" name="contato" id="emailContato">
-                        <label for="emailContato">E-mail</label>
-
-                        <input type="radio" name="contato" id="telContato">
-                        <label for="telContato">Ligação</label>
-
-                        <input type="radio" name="contato" id="whatsapp">
-                        <label for="whatsapp">Whatsapp</label>
+    
+    
+                    <div class="secaoForm">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email">
                     </div>
-
-                </div>
-                <div class="secaoForm">
-                    <h3>Mensagem</h3>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-
-                </div>
-                <div class="secaoForm-curriculo">
-                    <h3>Curriculo</h3>
-                    <label for="curriculo">upload</label>
-                    <input type="file" name="curriculo" id="curriculo">
-                </div>
-                <button class="enviar-btn" type="submit">enviar</button>
-            </form>
-        </section>
-        <section class="textoDireita">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
+    
+                    <div class="secaoForm">
+                        <label for="tel">Telefone</label>
+                        <input type="tel" name="tel" id="tel">
+    
+                    </div>
+                    <div class="secaoForm">
+                        <label for="departamentos">Departamentos</label>
+                        <select name="departamentos" id="departamentos" >
+                            <option value="RH">RH</option>
+                            <option value="TI">TI</option>
+                            <option value="auxiliar">Jovem Aprendiz</option>
+                        </select>
+    
+                    </div>
+                    <div class="secaoForm">
+                        <h3>Disponibilidade</h3>
+                        <div class="mark-box">
+                            <input type="checkbox" name="tempo" id="integral-8">
+                            <label for="integral-8">Integral (8h)</label>
+                            
+    
+                            <input type="checkbox" name="tempo" id="meioPeriodo-4">
+                            <label for="meioPeriodo-4">Meio Periodo (4h)</label>
+                            
+                            <input type="checkbox" name="tempo" id="freelancer">
+                            <label for="freelancer">Freelancer</label>
+                            
+                        </div>
+    
+                    </div>
+                    <div class="secaoForm">
+                        <h3>Qual a melhor forma para entrarmos em contato com você?</h3>
+                        <div class="mark-box">
+                            <input type="radio" name="contato" id="emailContato">
+                            <label for="emailContato">E-mail</label>
+    
+                            <input type="radio" name="contato" id="telContato">
+                            <label for="telContato">Ligação</label>
+    
+                            <input type="radio" name="contato" id="whatsapp">
+                            <label for="whatsapp">Whatsapp</label>
+                        </div>
+    
+                    </div>
+                    <div class="secaoForm">
+                        <h3>Mensagem</h3>
+                        <textarea name="mensagem" id="mensagem"></textarea>
+    
+                    </div>
+                    <div class="secaoForm-curriculo">
+                        <h3>Curriculo</h3>
+                        <label for="curriculo">upload</label>
+                        <input type="file" name="curriculo" id="curriculo">
+                    </div>
+                    <button class="enviar-btn" type="submit">enviar</button>
+                </form>
+            </section>
+            <section class="textoDireita">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br> <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <br> <br> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </section>
+        </div>
 
     </main>
 </body>
