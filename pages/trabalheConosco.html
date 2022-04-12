@@ -19,29 +19,34 @@
             <a href="trabalheConosco.html">trabalhe Conosco</a>
         </nav>
     </header>
+    <section class="promotion">
+        <h3>mês de setembro - frete grátis para todo brasil!</h3>
+    </section>
+
+
     <main>
         <div class="main">
             <section class="formulario">
                 <h1>Faça parte do nosso time</h1>
                 <form action="/trabalheConosco" method="post">
     
-                    <div class="secaoForm">
+                    <fieldset class="secaoForm">
                         <label for="name">Nome</label>
                         <input type="text" name="name" id="name">
-                    </div>
+                    </fieldset>
     
     
-                    <div class="secaoForm">
+                    <fieldset class="secaoForm">
                         <label for="email">E-mail</label>
                         <input type="email" name="email" id="email">
-                    </div>
+                    </fieldset>
     
-                    <div class="secaoForm">
+                    <fieldset class="secaoForm">
                         <label for="tel">Telefone</label>
                         <input type="tel" name="tel" id="tel">
     
-                    </div>
-                    <div class="secaoForm">
+                    </fieldset>
+                    <fieldset class="secaoForm">
                         <label for="departamentos">Departamentos</label>
                         <select name="departamentos" id="departamentos" >
                             <option value="RH">RH</option>
@@ -49,9 +54,9 @@
                             <option value="auxiliar">Jovem Aprendiz</option>
                         </select>
     
-                    </div>
-                    <div class="secaoForm">
-                        <h3>Disponibilidade</h3>
+                    </fieldset>
+                    <fieldset class="secaoForm">
+                        <label for="tempo">Disponibilidade</label>
                         <div class="mark-box">
                             <input type="checkbox" name="tempo" id="integral-8">
                             <label for="integral-8">Integral (8h)</label>
@@ -65,8 +70,8 @@
                             
                         </div>
     
-                    </div>
-                    <div class="secaoForm">
+                    </fieldset>
+                    <fieldset class="secaoForm">
                         <h3>Qual a melhor forma para entrarmos em contato com você?</h3>
                         <div class="mark-box">
                             <input type="radio" name="contato" id="emailContato">
@@ -79,17 +84,17 @@
                             <label for="whatsapp">Whatsapp</label>
                         </div>
     
-                    </div>
-                    <div class="secaoForm">
+                    </fieldset>
+                    <fieldset class="secaoForm">
                         <h3>Mensagem</h3>
                         <textarea name="mensagem" id="mensagem"></textarea>
     
-                    </div>
-                    <div class="secaoForm-curriculo">
+                    </fieldset>
+                    <fieldset class="secaoForm-curriculo">
                         <h3>Curriculo</h3>
                         <label for="curriculo">upload</label>
                         <input type="file" name="curriculo" id="curriculo">
-                    </div>
+                    </fieldset>
                     <button class="enviar-btn" type="submit">enviar</button>
                 </form>
             </section>

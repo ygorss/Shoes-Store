@@ -7,7 +7,9 @@
 
 .cabecalho{
     display: flex;
+    width: 100%;
     justify-content: space-between;
+    background: #fff;
     box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65)
 }
 .cabecalho img{
@@ -31,6 +33,29 @@
     text-transform: uppercase;
     color: #777777;
 }
+
+.promotion{
+    display: flex;
+    position: sticky;
+    width: 100%;
+    height: 75px;
+    text-align: center;
+    background-color: #C2185B;
+    top: 0;
+    cursor: pointer;
+}
+
+.promotion h3{
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 28px;
+    color: white;
+}
+
+.promotion:hover{
+    text-decoration: underline white;
+}
+
 .banner{
     height: auto;
 }
@@ -249,6 +274,8 @@ section.container-desconto {
 
 
     /* PAGINA TRABALHE CONOSCO */
+
+
     .main{
         display: flex;
         justify-content: space-between;
@@ -271,6 +298,7 @@ section.container-desconto {
     }
     form .secaoForm{
         display: flex;
+        border: none;
         flex-direction: column;
         margin-bottom: 39px;
     }
@@ -299,6 +327,7 @@ section.container-desconto {
         height: 230px;
     }
     .secaoForm-curriculo{
+        border: none;
         display: flex;
     }
 
@@ -332,8 +361,16 @@ section.container-desconto {
         font-size: 22px;
         font-style: bold;
         margin-top: 20px;
+        transition: all 1s;
     }
 
+    .enviar-btn:hover{
+        background-color: #fff;
+        color: #C2185B;
+        text-shadow: 1px 2px rgba(159, 159, 159, 0.65);
+        box-shadow: 0px 1px 20px rgba(159, 159, 159, 0.65);
+        cursor: pointer;
+    }
 
     .textoDireita{
         width: 30%;
