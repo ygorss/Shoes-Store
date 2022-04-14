@@ -270,6 +270,14 @@ section.container-desconto {
         color: white;
         text-decoration: none;
     }
+
+    .listaInst li a:hover{
+        text-decoration: underline white;
+    }
+
+    .listaCat li a:hover{
+        text-decoration: underline white;
+    }
     
 
 
