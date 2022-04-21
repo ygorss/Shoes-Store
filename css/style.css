@@ -155,7 +155,11 @@ section.container-desconto {
 
     .containerPai {
         display:flex;
-        flex-wrap: wrap;
+
+        /* praq serve isso? */
+        /* flex-wrap: wrap; */
+
+
         max-width:100%;
         justify-content: center;
     }
