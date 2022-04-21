@@ -27,9 +27,6 @@ O site não tem responsividade, porém possui duas páginas que utilizamos o fle
 
 
 <br>
-- Trabalhe Conosco:<br>
-   ![dPemLyLRdo](https://user-images.githubusercontent.com/80918514/164472247-9c9f64b1-f3ff-48a6-b24a-5b903e4ad910.gif)
-
 
 ## 🔧 As tecnologias
 
