@@ -40,7 +40,7 @@ O site não tem responsividade, porém possui duas páginas que utilizamos o fle
   <tr>
     <td align="center">
       <a href="https://github.com/ysilva0">
-        <img src="https://avatars.githubusercontent.com/u/55602555?v=4" width="100px;" alt="Foto do Ygor Silva no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/80918514?s=96&v=4" width="100px;" alt="Foto do Ygor Silva no GitHub"/><br>
         <sub>
           <b>Ygor Silva</b>
         </sub>
@@ -48,7 +48,7 @@ O site não tem responsividade, porém possui duas páginas que utilizamos o fle
     </td>
     <td align="center">
       <a href="https://github.com/tryrox">
-        <img src="https://avatars.githubusercontent.com/u/74218914?v=4" width="100px;" alt="Foto do Rafael Lima no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/44708042?v=4" width="100px;" alt="Foto do Rafael Lima no GitHub"/><br>
         <sub>
           <b>Rafael Lima</b>
         </sub>
@@ -56,7 +56,7 @@ O site não tem responsividade, porém possui duas páginas que utilizamos o fle
     </td>
     <td align="center">
       <a href="https://github.com/nandoamori">
-        <img src="https://avatars.githubusercontent.com/u/74219314?v=4" width="100px;" alt="Foto do Fernando R. Amorim no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/97182713?v=4" width="100px;" alt="Foto do Fernando R. Amorim no GitHub"/><br>
         <sub>
           <b>Fernando R. Amorim</b>
         </sub>
