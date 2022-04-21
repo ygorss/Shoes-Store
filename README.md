@@ -37,7 +37,7 @@ O site não tem responsividade, porém possui duas páginas que utilizamos o fle
 ## Informações Adicionais:
 
 - A página Trabalhe Conosco também foi utilizada para treinar a utilização semântica de formulários no HTML5.
-- As seções de cada página foram feitas individualmente pelos participante, entretanto as mudanças e resolução de bugs foram
+- As seções de cada página foram feitas individualmente pelos participantes, entretanto as mudanças e resolução de bugs foram
   feitas não ordenadas.
 
 
