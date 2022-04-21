@@ -447,3 +447,24 @@ section.container-desconto {
         margin: 0 50px 0 0;
         color: #777777;
     }
+
+
+
+
+    .promocaoIncrivel{
+        position: sticky;
+        top: -1px;
+        padding-top: 1px;
+        background-color: #C2185B;
+        color: white;
+        display: flex;
+        justify-content: center;
+        height: 52px;
+        align-items: center;
+        text-transform: uppercase;
+    }
+
+    .promocaoIncrivel:hover{
+        cursor: pointer;
+        text-decoration: underline;
+    }
